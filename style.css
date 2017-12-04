@@ -1,0 +1,39 @@
+.sectionwrapper {
+    margin: 75px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*******************HEADER START**********/
+
+.header {
+    padding: 6em;
+    text-align: right;
+    width: 100vw;
+    height: .5vw;
+    background: linear-gradient(to bottom, rgba(44, 122, 203, 0.99) 0%, rgba(0, 0, 0, 0) 90%);
+
+}
+
+header nav a:hover {
+
+    color: #1d7e21;
+    text-decoration: underline;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 4px;
+}
+
+
+
+header nav {
+    text-align: center;
+    margin: -75px -50px;
+}
