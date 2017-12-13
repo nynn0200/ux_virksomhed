@@ -1,3 +1,11 @@
+header {
+    padding: 6em;
+    text-align: right;
+    width: 100vw;
+    height: .5vw;
+}
+
+
 .sectionwrapper {
     margin: 75px;
     border-radius: 5px;
@@ -19,21 +27,20 @@
     z-index: 20;
     width: 130px;
     height: 70px;
-
-
-
-
-
+    right: 30vw;
 
 }
 
 
 
 .dropdown {
+
     position: relative;
     display: inline-block;
     top: 10vw;
     z-index: 23;
+}
+
 }
 
 .dropdown-content {
@@ -79,16 +86,3 @@
 }
 
 /*******************HEADER START**********/
-
-header nav a:hover {
-
-    color: #edd4d3;
-    text-decoration: underline;
-
-}
-
-header nav a {
-    text-decoration: none;
-    color: black;
-    padding-right: 4px;
-}
